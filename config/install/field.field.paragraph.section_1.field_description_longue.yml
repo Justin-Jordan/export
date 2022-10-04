@@ -1,0 +1,24 @@
+uuid: d2d38bf3-eace-423b-9c5f-988d5bd75aee
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description_longue
+    - paragraphs.paragraphs_type.section_1
+  module:
+    - text
+id: paragraph.section_1.field_description_longue
+field_name: field_description_longue
+entity_type: paragraph
+bundle: section_1
+label: 'description longue'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspe ndisse ultrices gravida. Risus commodo viverra maecenas</p>\r\n\r\n<p>ccumsanamet, consectetur adipiscing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices Letraset sheets containing gravida.</p>\r\n"
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text_long

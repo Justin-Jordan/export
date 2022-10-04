@@ -1,0 +1,10 @@
+uuid: a81a04de-cc35-49a1-8607-3c963e22d04e
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.temoignage
+label: témoignage
+targetEntityType: node
+cache: true

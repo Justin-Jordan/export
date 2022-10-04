@@ -1,0 +1,21 @@
+uuid: 8fb15890-919f-4d6f-a8e9-8a2d496bc550
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titre
+    - paragraphs.paragraphs_type.section_2
+id: paragraph.section_2.field_titre
+field_name: field_titre
+entity_type: paragraph
+bundle: section_2
+label: Titre
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 'Best Digital Agency Since 1998 Over the Internet'
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,44 @@
+uuid: 540ae5a2-8274-412b-8551-d18c61aa2f60
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_video_gauche.field_description
+    - field.field.paragraph.section_video_gauche.field_image
+    - field.field.paragraph.section_video_gauche.field_titre
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.section_video_gauche
+  module:
+    - image
+id: paragraph.section_video_gauche.default
+targetEntityType: paragraph
+bundle: section_video_gauche
+mode: default
+content:
+  field_description:
+    type: string_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 2
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_titre:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

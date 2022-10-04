@@ -1,0 +1,21 @@
+uuid: b32efdb9-215a-4eb1-bba0-7e0751007b10
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titre
+    - paragraphs.paragraphs_type.team_1
+id: paragraph.team_1.field_titre
+field_name: field_titre
+entity_type: paragraph
+bundle: team_1
+label: Titre
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 'Meet With Team Leaders'
+default_value_callback: ''
+settings: {  }
+field_type: string

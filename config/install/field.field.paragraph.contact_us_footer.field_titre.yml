@@ -1,0 +1,21 @@
+uuid: 1d20ec27-983e-4724-810f-148664197d47
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titre
+    - paragraphs.paragraphs_type.contact_us_footer
+id: paragraph.contact_us_footer.field_titre
+field_name: field_titre
+entity_type: paragraph
+bundle: contact_us_footer
+label: Titre
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 'Contact Us'
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: 4d6829ca-6ce4-4b20-96e3-fa89d3a41332
+langcode: fr
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_description_longue
+field_name: field_description_longue
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

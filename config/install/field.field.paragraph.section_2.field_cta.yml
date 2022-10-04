@@ -1,0 +1,28 @@
+uuid: 25427c85-4f8a-4bf4-8ca1-ad3eab345b37
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cta
+    - paragraphs.paragraphs_type.section_2
+  module:
+    - link
+id: paragraph.section_2.field_cta
+field_name: field_cta
+entity_type: paragraph
+bundle: section_2
+label: CTA
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    attributes: {  }
+    uri: 'internal:#'
+    title: 'Contactez nous'
+    options: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

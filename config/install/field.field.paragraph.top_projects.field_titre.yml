@@ -1,0 +1,21 @@
+uuid: ac7073ce-068e-44c3-b476-7f8dec1c56c6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titre
+    - paragraphs.paragraphs_type.top_projects
+id: paragraph.top_projects.field_titre
+field_name: field_titre
+entity_type: paragraph
+bundle: top_projects
+label: Titre
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 'Our Top Projects'
+default_value_callback: ''
+settings: {  }
+field_type: string

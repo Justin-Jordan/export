@@ -1,0 +1,61 @@
+uuid: 814f089d-b893-4ea9-a7c0-ba20ceade748
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_contenu
+    - paragraphs.paragraphs_type.section_container
+    - paragraphs.paragraphs_type.section_video_gauche
+  module:
+    - entity_reference_revisions
+id: paragraph.section_container.field_contenu
+field_name: field_contenu
+entity_type: paragraph
+bundle: section_container
+label: contenu
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      section_video_gauche: section_video_gauche
+    negate: 0
+    target_bundles_drag_drop:
+      contact_us_footer:
+        weight: 12
+        enabled: false
+      hero_1:
+        weight: 13
+        enabled: false
+      section_1:
+        weight: 14
+        enabled: false
+      section_2:
+        weight: 15
+        enabled: false
+      section_3:
+        weight: 16
+        enabled: false
+      section_container:
+        weight: 17
+        enabled: false
+      section_video_gauche:
+        weight: 18
+        enabled: true
+      service_1:
+        weight: 19
+        enabled: false
+      tarif:
+        weight: 20
+        enabled: false
+      testimonial_1:
+        weight: 21
+        enabled: false
+      top_projects:
+        weight: 22
+        enabled: false
+field_type: entity_reference_revisions

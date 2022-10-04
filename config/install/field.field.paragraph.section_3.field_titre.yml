@@ -1,0 +1,21 @@
+uuid: e1364616-0ea5-443a-bd76-b38bb6611b98
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titre
+    - paragraphs.paragraphs_type.section_3
+id: paragraph.section_3.field_titre
+field_name: field_titre
+entity_type: paragraph
+bundle: section_3
+label: Titre
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 'We Achieved the Trust of Thousands Customer Across the World'
+default_value_callback: ''
+settings: {  }
+field_type: string

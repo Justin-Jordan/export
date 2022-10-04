@@ -1,0 +1,21 @@
+uuid: 4cb5c0ad-18b9-444f-b81b-b35a8f160cda
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titre
+    - paragraphs.paragraphs_type.hero_1
+id: paragraph.hero_1.field_titre
+field_name: field_titre
+entity_type: paragraph
+bundle: hero_1
+label: Titre
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Nous somme là pour résoudre les problèmes de votre business'
+default_value_callback: ''
+settings: {  }
+field_type: string

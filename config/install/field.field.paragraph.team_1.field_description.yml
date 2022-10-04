@@ -1,0 +1,21 @@
+uuid: 2ea94324-91e5-4a0d-806a-4babb6e98f1a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.team_1
+id: paragraph.team_1.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: team_1
+label: description
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since'
+default_value_callback: ''
+settings: {  }
+field_type: string_long

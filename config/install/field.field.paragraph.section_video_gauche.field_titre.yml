@@ -1,0 +1,21 @@
+uuid: 480e643a-6407-4a13-8723-c120a4647409
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titre
+    - paragraphs.paragraphs_type.section_video_gauche
+id: paragraph.section_video_gauche.field_titre
+field_name: field_titre
+entity_type: paragraph
+bundle: section_video_gauche
+label: Titre
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 'We Achieved the Trust Over 40k Customers'
+default_value_callback: ''
+settings: {  }
+field_type: string

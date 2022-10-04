@@ -1,0 +1,21 @@
+uuid: 5c56652a-3070-4576-8171-a7833217efa7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titre
+    - paragraphs.paragraphs_type.testimonial_1
+id: paragraph.testimonial_1.field_titre
+field_name: field_titre
+entity_type: paragraph
+bundle: testimonial_1
+label: Titre
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 'What Customers Says About Us'
+default_value_callback: ''
+settings: {  }
+field_type: string

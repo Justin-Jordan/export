@@ -1,0 +1,10 @@
+uuid: 11893c68-c12b-458a-8d79-1b903afebb99
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.realisation
+label: réalisation
+targetEntityType: node
+cache: true

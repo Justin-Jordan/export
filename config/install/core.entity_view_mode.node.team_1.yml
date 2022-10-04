@@ -1,0 +1,10 @@
+uuid: d0f4030a-8168-4f3a-89e4-53a4a835acf3
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.team_1
+label: 'team 1'
+targetEntityType: node
+cache: true

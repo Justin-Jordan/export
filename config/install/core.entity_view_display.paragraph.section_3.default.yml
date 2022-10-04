@@ -1,0 +1,268 @@
+uuid: 485ecde1-c403-41c0-bec1-ebf7295ea8db
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_3.field_description_longue
+    - field.field.paragraph.section_3.field_image
+    - field.field.paragraph.section_3.field_titre
+    - paragraphs.paragraphs_type.section_3
+  module:
+    - image
+    - layout_builder
+    - mit_models
+    - text
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: mit_models_card_section
+        layout_settings:
+          label: ' Mit_Models : Card Section  ( mit_models_card_section ) '
+          context_mapping: {  }
+          load_libray: 1
+          derivate:
+            value: mitor-card--left
+            options:
+              mitor-card--right: rectangle-right-normal
+              'mitor-card--right  mitor-card--reverse': rectangle-right-reverse
+              mitor-card--left: rectangle-left-normal
+              'mitor-card--left  mitor-card--reverse': rectangle-left-reverse
+              mitor-card--triangle-right: triangle-right
+              'mitor-card--triangle-right  mitor-card--reverse': triangle-right-reverse
+              mitor-card--triangle: triangle-left
+              'mitor-card--triangle  mitor-card--reverse': triangle-left-reverse
+              'mitor-card--right mitor-card--video': right-video
+              'mitor-card--right mitor-card--reverse mitor-card--video': right-reverse-video
+              'mitor-card--left mitor-card--video': left-video
+              'mitor-card--left mitor-card--video mitor-card--reverse': left-video-reverse
+          region_tag_title: h1
+          infos:
+            builder-form: true
+            info:
+              title: 'Texte information'
+              loader: dynamic
+            fields:
+              mc_title:
+                text_html:
+                  label: Titre
+                  value: ' We Ensure the Success of Your Products and Business '
+                  format: full_html
+              mc_description:
+                text_html:
+                  label: ' Descritpion '
+                  value: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut\r\n                                        labore\r\n                                        et dolore magna aliqua. Quis ipsum suspe ndisse ultrices gravida. Risus commodo viverra\r\n                                        maecenas\r\n                                        ccumsanamet, consectetur adipiscing elit, sed do eiusmod tempor incid idunt ut labore et\r\n                                        dolore\r\n                                        magna aliqua. Quis ipsum suspendisse ultrices Letraset sheets containing gravida.\r\n                                        <ul>\r\n                                            <li>\r\n                                                There are many variations of passages of Lorem Ipsum available, but the majority\r\n                                                have\r\n                                                suffered.</li>\r\n                                            <li>mangoste\r\n                                                There are many variations of passages of Lorem Ipsum available, but the majority\r\n                                                have\r\n                                                suffered. filbonar </li>\r\n                                            <li>mangoste\r\n                                                There are many variations of passages of Lorem Ipsum available, but the majority\r\n                                                have\r\n                                                suffered.nar </li>\r\n                                        </ul>"
+                  format: full_html
+              mc_image:
+                text_html:
+                  label: ' Image '
+                  value: " <a href=\"#\">\r\n                                            <img src=\"http://slidesigma.com/themes/html/mitor/assets/img/homepage-1/product-2.jpg\"\r\n                                                alt=\"\">\r\n                                        </a>  "
+                  format: full_html
+              listable_items:
+                text_html:
+                  label: 'Element listable'
+                  value: ''
+                  format: full_html
+              mc_btn:
+                url:
+                  label: LIEN
+                  value:
+                    text: 'Contact us'
+                    link: '#'
+                    class: mitor-btn
+          region_css_mc_title: ''
+          region_css_mc_description: ''
+          region_css_mc_image: ''
+          region_css_mc_btn: mitor-btn
+          region_css_listable_items: ''
+          css: ''
+          load_clean_value: 0
+          save_by_domain: null
+          container_wrapper:
+            bootstrap_styles:
+              background:
+                background_type: color
+              background_color:
+                class: null
+              background_media:
+                image:
+                  media_id: null
+                video:
+                  media_id: null
+                background_options:
+                  background_position: center
+                  background_repeat: no-repeat
+                  background_attachment: not_fixed
+                  background_size: cover
+              text_color:
+                class: null
+              text_alignment:
+                class: null
+              padding:
+                class: _none
+              padding_left:
+                class: _none
+              padding_top:
+                class: _none
+              padding_right:
+                class: _none
+              padding_bottom:
+                class: _none
+              margin:
+                class: _none
+              margin_left:
+                class: _none
+              margin_top:
+                class: _none
+              margin_right:
+                class: _none
+              margin_bottom:
+                class: _none
+              border:
+                border_style:
+                  class: null
+                border_width:
+                  class: _none
+                border_color:
+                  class: null
+                rounded_corners:
+                  class: _none
+                border_left_style:
+                  class: null
+                border_left_width:
+                  class: _none
+                border_left_color:
+                  class: null
+                border_top_style:
+                  class: null
+                border_top_width:
+                  class: _none
+                border_top_color:
+                  class: null
+                border_right_style:
+                  class: null
+                border_right_width:
+                  class: _none
+                border_right_color:
+                  class: null
+                border_bottom_style:
+                  class: null
+                border_bottom_width:
+                  class: _none
+                border_bottom_color:
+                  class: null
+                rounded_corner_top_left:
+                  class: _none
+                rounded_corner_top_right:
+                  class: _none
+                rounded_corner_bottom_left:
+                  class: _none
+                rounded_corner_bottom_right:
+                  class: _none
+              scroll_effects:
+                class: null
+          region_tag_mc_title: ''
+          region_tag_mc_description: ''
+          region_tag_mc_image: ''
+          region_tag_mc_btn: ''
+          region_tag_listable_items: ''
+        components:
+          58da1406-abc4-4de9-a283-540344f99712:
+            uuid: 58da1406-abc4-4de9-a283-540344f99712
+            region: mc_image
+            configuration:
+              id: 'field_block:paragraph:section_3:field_image'
+              label: image
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: ''
+                  image_style: ''
+                  image_loading:
+                    attribute: lazy
+                third_party_settings:
+                  field_formatter_class:
+                    class: ''
+            weight: 0
+            additional: {  }
+          b0dce018-85cd-44c1-ba31-3c0dd278075c:
+            uuid: b0dce018-85cd-44c1-ba31-3c0dd278075c
+            region: mc_title
+            configuration:
+              id: 'field_block:paragraph:section_3:field_titre'
+              label: Titre
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: hidden
+                settings: {  }
+                third_party_settings:
+                  field_formatter_class:
+                    class: ''
+            weight: 1
+            additional: {  }
+          3824a545-96de-4e38-9553-ddca09e6faff:
+            uuid: 3824a545-96de-4e38-9553-ddca09e6faff
+            region: mc_description
+            configuration:
+              id: 'field_block:paragraph:section_3:field_description_longue'
+              label: description
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings:
+                  field_formatter_class:
+                    class: ''
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+id: paragraph.section_3.default
+targetEntityType: paragraph
+bundle: section_3
+mode: default
+content:
+  field_description_longue:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_titre:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden: {  }

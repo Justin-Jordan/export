@@ -1,0 +1,21 @@
+uuid: 037a2571-ef36-481e-bd09-a82e8bba4573
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.contact_us_footer
+id: paragraph.contact_us_footer.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: contact_us_footer
+label: description
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 'Do You Have Any Project to Share With Us?'
+default_value_callback: ''
+settings: {  }
+field_type: string_long
