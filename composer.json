@@ -1,5 +1,6 @@
 {
     "name": "justinonomo/export",
     "description": "some drupal paragraph importation",
+    "type": "drupal-custom-module",
     "require": {}
 }
