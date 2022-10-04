@@ -1,5 +1,0 @@
-name: export
-type: module
-description: export some paragraph
-package: Custom
-core_version_requirement: ^9 || ^10
